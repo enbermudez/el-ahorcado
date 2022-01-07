@@ -12,7 +12,7 @@ body {
 #boardgame {
   width: 800px;
   height: 745px;
-  margin: 50px auto 0;
+  margin: 0 auto;
 }
 
 #drawing {
@@ -98,10 +98,10 @@ body {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 20px;
   transition-duration: .25s;
   border-radius: 5px;
-  margin: 25px auto 0;
+  margin: 10px auto 0;
   display: block;
   cursor: pointer;
 }
@@ -113,4 +113,20 @@ body {
 
 .restart:hover {
   background: #80c8ff;
+}
+
+@media (max-width: 400px) {
+  #abedecedary {
+    grid-template-columns: repeat(7, 1fr) !important;
+    height: 520px;
+  }
+
+  .abc-letter {
+    height: 130px;
+  }
+
+  .restart {
+    margin: 50px auto 0;
+    font-size: 2.5rem;
+  }
 }
