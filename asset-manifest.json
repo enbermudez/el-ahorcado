@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/el-ahorcado/static/css/main.7faabbc8.css",
+    "main.css": "/el-ahorcado/static/css/main.97f885fb.css",
     "main.js": "/el-ahorcado/static/js/main.04657831.js",
     "index.html": "/el-ahorcado/index.html",
-    "main.7faabbc8.css.map": "/el-ahorcado/static/css/main.7faabbc8.css.map",
+    "main.97f885fb.css.map": "/el-ahorcado/static/css/main.97f885fb.css.map",
     "main.04657831.js.map": "/el-ahorcado/static/js/main.04657831.js.map"
   },
   "entrypoints": [
-    "static/css/main.7faabbc8.css",
+    "static/css/main.97f885fb.css",
     "static/js/main.04657831.js"
   ]
 }
